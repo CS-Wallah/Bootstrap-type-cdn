@@ -1,0 +1,51 @@
+/* =========================================================
+CS_Wallah UI Prototype v1.0 - Custom Component Library
+Author: Masih (@CS_WallahOfficial)
+========================================================= */
+.cs-wallah-card {
+box-sizing: border-box;
+max-width: 340px;
+margin: 24px auto;
+padding: 20px;
+background-color: #141518;
+border: 2px solid #d4af37;
+border-radius: 12px;
+font-family: 'Segoe UI', Arial, sans-serif;
+color: #ffffff;
+text-align: center;
+}
+/* 1. Channel Logo Container */
+.cs-wallah-card img {
+width: 84px;
+height: 84px;
+border-radius: 50%;
+border: 2px solid #d4af37;
+object-fit: cover;
+margin-bottom: 14px;
+}
+/* 2. Promotional Textarea Box */
+.cs-wallah-card textarea {
+box-sizing: border-box;
+width: 100%;
+min-height: 76px;
+padding: 10px 12px;
+margin-bottom: 14px;
+background-color: #1f2229;
+color: #f8fafc;
+border: 1px solid #475569;
+border-radius: 8px;
+font-family: inherit;
+font-size: 14px;
+line-height: 1.45;
+resize: vertical;
+}
+.cs-wallah-card textarea:focus {
+outline: none;
+border-color: #d4af37;
+}
+/* 3. Branded Subscribe Button */
+.cs-wallah-card button {
+width: 100%;
+padding: 11px 16px;
+background-color: #d4af37; 
+}
